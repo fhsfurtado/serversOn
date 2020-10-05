@@ -23,7 +23,6 @@
             $advice = '<div class="alert alert-danger" role="alert"> Ops! Ocorreu algum erro... <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
         }
     }
-//require('session.php');
 require('isMobile.php');
 header("Refresh: 120; url=index.php");
 ?>
